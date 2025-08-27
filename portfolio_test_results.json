@@ -1,0 +1,281 @@
+{
+  "functional": [
+    {
+      "test": "Button: View Projects",
+      "status": "FUNCTIONAL",
+      "details": {
+        "href": "https://poetic-halva-844a3a.netlify.app/#projects",
+        "handler": "no handler"
+      }
+    },
+    {
+      "test": "Button: Download Resume",
+      "status": "FUNCTIONAL",
+      "details": {
+        "href": "https://poetic-halva-844a3a.netlify.app/resume.pdf",
+        "handler": "no handler"
+      }
+    }
+  ],
+  "visual": [
+    {
+      "test": "Desktop responsiveness",
+      "status": "PASS",
+      "details": {
+        "heroVisible": true,
+        "projectsVisible": true,
+        "horizontalScroll": false
+      }
+    },
+    {
+      "test": "Tablet responsiveness",
+      "status": "PASS",
+      "details": {
+        "heroVisible": true,
+        "projectsVisible": true,
+        "horizontalScroll": false
+      }
+    },
+    {
+      "test": "Mobile responsiveness",
+      "status": "FAIL",
+      "details": {
+        "heroVisible": true,
+        "projectsVisible": true,
+        "horizontalScroll": true
+      }
+    },
+    {
+      "test": "Premium asset: hero_avatar.png",
+      "status": "NOT INTEGRATED",
+      "improvement": "Integrate hero_avatar.png for better visuals"
+    },
+    {
+      "test": "Premium asset: ziggy_premium_card.png",
+      "status": "NOT INTEGRATED",
+      "improvement": "Integrate ziggy_premium_card.png for better visuals"
+    },
+    {
+      "test": "Premium asset: mirador_premium_card.png",
+      "status": "NOT INTEGRATED",
+      "improvement": "Integrate mirador_premium_card.png for better visuals"
+    },
+    {
+      "test": "Premium asset: security_premium_card.png",
+      "status": "NOT INTEGRATED",
+      "improvement": "Integrate security_premium_card.png for better visuals"
+    },
+    {
+      "test": "Animations present",
+      "status": "YES",
+      "count": 181
+    },
+    {
+      "test": "Project card 1 hover effect",
+      "status": "ACTIVE"
+    },
+    {
+      "test": "Project card 2 hover effect",
+      "status": "NONE"
+    },
+    {
+      "test": "Project card 3 hover effect",
+      "status": "ACTIVE"
+    }
+  ],
+  "performance": [
+    {
+      "test": "Page Load Time",
+      "status": "GOOD",
+      "value": "1033ms",
+      "target": "< 3000ms"
+    },
+    {
+      "test": "DOM Content Loaded",
+      "status": "GOOD",
+      "value": "896ms",
+      "target": "< 2000ms"
+    }
+  ],
+  "accessibility": [
+    {
+      "test": "Heading hierarchy",
+      "status": "PASS"
+    },
+    {
+      "test": "Focusable elements",
+      "status": "FOUND",
+      "count": 15
+    },
+    {
+      "test": "Color contrast sample",
+      "status": "NEEDS MANUAL CHECK",
+      "samples": [
+        {
+          "color": "rgb(30, 41, 59)",
+          "bg": "rgb(248, 250, 252)",
+          "text": "\n    \n    \n        \n"
+        },
+        {
+          "color": "rgb(30, 41, 59)",
+          "bg": "rgba(248, 250, 252, 0.95)",
+          "text": "\n        \n          "
+        },
+        {
+          "color": "rgb(37, 99, 235)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Download Resume"
+        },
+        {
+          "color": "rgb(30, 41, 59)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "\n        \n          "
+        },
+        {
+          "color": "rgb(30, 41, 59)",
+          "bg": "rgb(248, 250, 252)",
+          "text": "\n                   "
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "test": "name: Matthew Scott",
+      "status": "FOUND"
+    },
+    {
+      "test": "title: AI/ML Engineer",
+      "status": "FOUND"
+    },
+    {
+      "test": "phone: 502-345-0525",
+      "status": "MISSING"
+    },
+    {
+      "test": "github: @guitargnar",
+      "status": "MISSING"
+    },
+    {
+      "test": "location: Louisville, KY",
+      "status": "MISSING"
+    },
+    {
+      "test": "Content: ZIGGY",
+      "status": "FOUND",
+      "category": "projects"
+    },
+    {
+      "test": "Content: Mirador",
+      "status": "FOUND",
+      "category": "projects"
+    },
+    {
+      "test": "Content: Security Copilot",
+      "status": "FOUND",
+      "category": "projects"
+    },
+    {
+      "test": "Content: LegalStream",
+      "status": "FOUND",
+      "category": "projects"
+    },
+    {
+      "test": "Content: 109",
+      "status": "FOUND",
+      "category": "stats"
+    },
+    {
+      "test": "Content: 78",
+      "status": "FOUND",
+      "category": "stats"
+    },
+    {
+      "test": "Content: 26",
+      "status": "FOUND",
+      "category": "stats"
+    },
+    {
+      "test": "No Humana references",
+      "status": "PASS",
+      "critical": true
+    }
+  ],
+  "issues": [
+    {
+      "type": "NAVIGATION",
+      "message": "Failed to test Home: SyntaxError: Failed to execute 'querySelector' on 'Document': 'a:has-text(\"Home\"), button:has-text(\"Home\")' is not a valid selector."
+    },
+    {
+      "type": "NAVIGATION",
+      "message": "Failed to test About: SyntaxError: Failed to execute 'querySelector' on 'Document': 'a:has-text(\"About\"), button:has-text(\"About\")' is not a valid selector."
+    },
+    {
+      "type": "NAVIGATION",
+      "message": "Failed to test Projects: SyntaxError: Failed to execute 'querySelector' on 'Document': 'a:has-text(\"Projects\"), button:has-text(\"Projects\")' is not a valid selector."
+    },
+    {
+      "type": "NAVIGATION",
+      "message": "Failed to test Skills: SyntaxError: Failed to execute 'querySelector' on 'Document': 'a:has-text(\"Skills\"), button:has-text(\"Skills\")' is not a valid selector."
+    },
+    {
+      "type": "NAVIGATION",
+      "message": "Failed to test Contact: SyntaxError: Failed to execute 'querySelector' on 'Document': 'a:has-text(\"Contact\"), button:has-text(\"Contact\")' is not a valid selector."
+    },
+    {
+      "type": "BUTTON",
+      "message": "Error testing \"View Projects\": selector.startsWith is not a function"
+    },
+    {
+      "type": "BUTTON",
+      "message": "Error testing \"Download Resume\": selector.startsWith is not a function"
+    },
+    {
+      "type": "BUTTON",
+      "message": "Error testing \"Contact via GitHub\": selector.startsWith is not a function"
+    },
+    {
+      "type": "CONTENT",
+      "message": "Missing phone: 502-345-0525"
+    },
+    {
+      "type": "CONTENT",
+      "message": "Missing github: @guitargnar"
+    },
+    {
+      "type": "CONTENT",
+      "message": "Missing location: Louisville, KY"
+    },
+    {
+      "type": "RESPONSIVE",
+      "message": "Horizontal scroll detected at Mobile (390px)"
+    }
+  ],
+  "improvements": [
+    {
+      "category": "VISUAL",
+      "suggestion": "Integrate premium asset: hero_avatar.png",
+      "impact": "HIGH"
+    },
+    {
+      "category": "VISUAL",
+      "suggestion": "Integrate premium asset: ziggy_premium_card.png",
+      "impact": "HIGH"
+    },
+    {
+      "category": "VISUAL",
+      "suggestion": "Integrate premium asset: mirador_premium_card.png",
+      "impact": "HIGH"
+    },
+    {
+      "category": "VISUAL",
+      "suggestion": "Integrate premium asset: security_premium_card.png",
+      "impact": "HIGH"
+    },
+    {
+      "category": "INTERACTIVITY",
+      "suggestion": "Add hover effect to project card 2",
+      "impact": "LOW"
+    }
+  ]
+}
