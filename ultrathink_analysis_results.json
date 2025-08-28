@@ -1,0 +1,185 @@
+{
+  "performance": {
+    "domContentLoaded": 968,
+    "loadComplete": 1053,
+    "firstContentfulPaint": 992,
+    "firstPaint": 992,
+    "domElements": 184,
+    "images": 1,
+    "scripts": 1,
+    "stylesheets": 3
+  },
+  "accessibility": {
+    "imagesWithoutAlt": 0,
+    "totalImages": 1,
+    "buttonsWithoutText": 0,
+    "totalButtons": 2,
+    "headingStructure": [
+      {
+        "tag": "H1",
+        "text": "\n                    Matthew Scott\n               "
+      },
+      {
+        "tag": "H2",
+        "text": "AI/ML Engineer & Systems Architect"
+      },
+      {
+        "tag": "H2",
+        "text": "About Me"
+      },
+      {
+        "tag": "H3",
+        "text": "AI Research"
+      },
+      {
+        "tag": "H3",
+        "text": "Enterprise Scale"
+      },
+      {
+        "tag": "H3",
+        "text": "Security Focus"
+      },
+      {
+        "tag": "H2",
+        "text": "Featured Projects"
+      },
+      {
+        "tag": "H3",
+        "text": "ZIGGY: Metacognitive Evolution"
+      },
+      {
+        "tag": "H3",
+        "text": "Mirador: AI Orchestration"
+      },
+      {
+        "tag": "H3",
+        "text": "Security Copilot"
+      },
+      {
+        "tag": "H3",
+        "text": "LegalStream Platform"
+      },
+      {
+        "tag": "H2",
+        "text": "Technical Skills"
+      },
+      {
+        "tag": "H3",
+        "text": "AI/ML Frameworks"
+      },
+      {
+        "tag": "H3",
+        "text": "Languages"
+      },
+      {
+        "tag": "H3",
+        "text": "DevOps & Cloud"
+      },
+      {
+        "tag": "H3",
+        "text": "Domains"
+      },
+      {
+        "tag": "H2",
+        "text": "Let's Connect"
+      }
+    ],
+    "tabIndex": 0,
+    "ariaLabels": 0,
+    "contrast": []
+  },
+  "seo": {
+    "title": "Matthew Scott - AI/ML Engineer | Portfolio",
+    "description": "AI/ML Engineer specializing in production AI systems. Creator of ZIGGY, Mirador, and 32+ GitHub repositories.",
+    "ogTitle": "Matthew Scott - AI/ML Engineer",
+    "ogDescription": "Building production-scale AI systems from research to deployment",
+    "ogImage": "assets/hero_background.png",
+    "h1Count": 1,
+    "structuredData": 0
+  },
+  "ux": {
+    "Desktop": {
+      "navVisible": true,
+      "heroVisible": true,
+      "horizontalScroll": false,
+      "overflow": "hidden"
+    },
+    "Tablet": {
+      "navVisible": true,
+      "heroVisible": true,
+      "horizontalScroll": false,
+      "overflow": "hidden"
+    },
+    "Mobile": {
+      "navVisible": true,
+      "heroVisible": true,
+      "horizontalScroll": true,
+      "overflow": "hidden"
+    },
+    "contactLinks": [
+      {
+        "type": "email",
+        "href": "mailto:matthew.scott.professional@gmail.com",
+        "text": "\n                    ✉️\n                    Email\n                "
+      },
+      {
+        "type": "phone",
+        "href": "tel:502-345-0525",
+        "text": "\n                    📱\n                    Call\n                "
+      }
+    ]
+  },
+  "security": {
+    "externalLinks": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "externalLinksWithoutNoopener": 6,
+    "forms": 0,
+    "httpsLinks": 13,
+    "httpLinks": 0
+  },
+  "visual": {
+    "primaryColors": {
+      "background": "rgba(0, 0, 0, 0)",
+      "text": "rgb(30, 41, 59)",
+      "border": "rgb(30, 41, 59)"
+    },
+    "navColors": {
+      "background": "rgba(248, 250, 252, 0.95)",
+      "text": "rgb(30, 41, 59)",
+      "border": "rgb(30, 41, 59)"
+    },
+    "fonts": [
+      "Times",
+      "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+    ],
+    "bodyFont": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "animations": 0,
+    "gradients": 8
+  },
+  "interactions": {
+    "card_0_hover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "boxShadow": "none",
+      "backgroundColor": "rgb(248, 250, 252)"
+    },
+    "card_1_hover": {
+      "transform": "none",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "card_2_hover": {
+      "transform": "matrix(1.02, 0, 0, 1.02, 0, -10)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px",
+      "backgroundColor": "rgb(255, 255, 255)"
+    }
+  },
+  "network": {},
+  "console": [],
+  "errors": []
+}
